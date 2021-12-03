@@ -281,9 +281,14 @@
     padding-top: 5px;
   }
 
-  .payment-btn button:hover, .change a:hover {
+  .payment-btn button:hover {
     opacity: 0.6;
   }
+    
+    .change a:hover {
+        opacity: 0.6;
+        text-decoration: none;
+    }
 
   .cancel-btn button:hover{
     color: black;
