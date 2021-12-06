@@ -4,7 +4,7 @@
   html {
     background: url(images/pattern-background-mobile.svg);
     background-color: hsl(225, 100%, 94%);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     font-size: 100%;
     width: 100%;
@@ -50,10 +50,11 @@
     border-radius: 10px 10px 0px 0px;
   }
 
-  #h3 {
+  #h1 {
     text-align: center;
     font-weight: 900;
     letter-spacing: 1.2px;
+    font-size: 1rem;
   }
 
   .paragraph > p{
@@ -191,10 +192,11 @@
     border-radius: 10px 10px 0px 0px;
   }
 
-  #h3 {
+  #h1 {
     text-align: center;
     font-weight: 900;
     letter-spacing: 1.2px;
+    font-size: 1rem;
   }
 
   .paragraph > p{
@@ -281,14 +283,9 @@
     padding-top: 5px;
   }
 
-  .payment-btn button:hover {
+  .payment-btn button:hover, .change a:hover {
     opacity: 0.6;
   }
-    
-    .change a:hover {
-        opacity: 0.6;
-        text-decoration: none;
-    }
 
   .cancel-btn button:hover{
     color: black;
